@@ -61,6 +61,16 @@ class ListMenu {
         },
         child: const Text('CheckBox'),
       ),
+      TextButton(
+        onPressed: () {
+          Navigator.of(context).pushReplacement(
+            MaterialPageRoute(
+              builder: (ctx) => const SliderView(),
+            ),
+          );
+        },
+        child: const Text('Slider'),
+      ),
     ];
   }
 }
