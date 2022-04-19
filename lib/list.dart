@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:perfil/index.dart';
 import 'package:perfil/widgets/inputs/checkbox_list_tile.dart';
 import 'package:perfil/widgets/inputs/dropdown_button.dart';
+import 'package:perfil/widgets/inputs/gesture_detector.dart';
 import 'package:perfil/widgets/inputs/slider.dart';
 import 'package:perfil/widgets/inputs/switch_list_tile.dart';
 import 'package:perfil/widgets/inputs/text_elevated_outlined_button.dart';
@@ -70,6 +71,16 @@ class ListMenu {
           );
         },
         child: const Text('Slider'),
+      ),
+      TextButton(
+        onPressed: () {
+          Navigator.of(context).pushReplacement(
+            MaterialPageRoute(
+              builder: (ctx) => const GestureDetectorView(),
+            ),
+          );
+        },
+        child: const Text('GestureDetector'),
       ),
     ];
   }
