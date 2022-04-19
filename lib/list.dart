@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:perfil/index.dart';
+import 'package:perfil/widgets/inputs/checkbox_list_tile.dart';
 import 'package:perfil/widgets/inputs/dropdown_button.dart';
+import 'package:perfil/widgets/inputs/slider.dart';
+import 'package:perfil/widgets/inputs/switch_list_tile.dart';
 import 'package:perfil/widgets/inputs/text_elevated_outlined_button.dart';
 
 class ListMenu {
@@ -37,6 +40,26 @@ class ListMenu {
           );
         },
         child: const Text('DropdownButton'),
+      ),
+      TextButton(
+        onPressed: () {
+          Navigator.of(context).pushReplacement(
+            MaterialPageRoute(
+              builder: (ctx) => const SwitchListTileViw(),
+            ),
+          );
+        },
+        child: const Text('Switch'),
+      ),
+      TextButton(
+        onPressed: () {
+          Navigator.of(context).pushReplacement(
+            MaterialPageRoute(
+              builder: (ctx) => const CheckboxListTileView(),
+            ),
+          );
+        },
+        child: const Text('CheckBox'),
       ),
     ];
   }
