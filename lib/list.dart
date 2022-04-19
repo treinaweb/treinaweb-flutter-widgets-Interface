@@ -17,6 +17,16 @@ class ListMenu {
         },
         child: const Text('Perfil'),
       ),
+      TextButton(
+        onPressed: () {
+          Navigator.of(context).pushReplacement(
+            MaterialPageRoute(
+              builder: (ctx) => const TextElevatedOutlinedButtonView(),
+            ),
+          );
+        },
+        child: const Text('Text Elevated Outlined Button'),
+      ),
     ];
   }
 }
