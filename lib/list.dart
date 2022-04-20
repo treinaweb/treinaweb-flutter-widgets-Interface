@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:perfil/index.dart';
+import 'package:perfil/widgets/dialog/snackbar.dart';
 import 'package:perfil/widgets/inputs/checkbox_list_tile.dart';
 import 'package:perfil/widgets/inputs/dropdown_button.dart';
 import 'package:perfil/widgets/inputs/gesture_detector.dart';
@@ -81,6 +82,16 @@ class ListMenu {
           );
         },
         child: const Text('GestureDetector'),
+      ),
+      TextButton(
+        onPressed: () {
+          Navigator.of(context).pushReplacement(
+            MaterialPageRoute(
+              builder: (ctx) => const SnackbarView(),
+            ),
+          );
+        },
+        child: const Text('Snackbar'),
       ),
     ];
   }
