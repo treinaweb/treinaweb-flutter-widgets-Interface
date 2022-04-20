@@ -9,6 +9,7 @@ import 'package:perfil/widgets/inputs/slider.dart';
 import 'package:perfil/widgets/inputs/switch_list_tile.dart';
 import 'package:perfil/widgets/inputs/text_elevated_outlined_button.dart';
 import 'package:perfil/widgets/interface/list_tile.dart';
+import 'package:perfil/widgets/interface/table.dart';
 
 class ListMenu {
   ListMenu._();
@@ -114,6 +115,16 @@ class ListMenu {
           );
         },
         child: const Text('List Tile'),
+      ),
+      TextButton(
+        onPressed: () {
+          Navigator.of(context).pushReplacement(
+            MaterialPageRoute(
+              builder: (ctx) => const TableView(),
+            ),
+          );
+        },
+        child: const Text('Table'),
       ),
     ];
   }
