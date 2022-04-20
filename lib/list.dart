@@ -8,6 +8,7 @@ import 'package:perfil/widgets/inputs/gesture_detector.dart';
 import 'package:perfil/widgets/inputs/slider.dart';
 import 'package:perfil/widgets/inputs/switch_list_tile.dart';
 import 'package:perfil/widgets/inputs/text_elevated_outlined_button.dart';
+import 'package:perfil/widgets/interface/list_tile.dart';
 
 class ListMenu {
   ListMenu._();
@@ -103,6 +104,16 @@ class ListMenu {
           );
         },
         child: const Text('Alert dialog'),
+      ),
+      TextButton(
+        onPressed: () {
+          Navigator.of(context).pushReplacement(
+            MaterialPageRoute(
+              builder: (ctx) => const ListTileView(),
+            ),
+          );
+        },
+        child: const Text('List Tile'),
       ),
     ];
   }
