@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:perfil/index.dart';
+import 'package:perfil/widgets/dialog/alert_dialog.dart';
 import 'package:perfil/widgets/dialog/snackbar.dart';
 import 'package:perfil/widgets/inputs/checkbox_list_tile.dart';
 import 'package:perfil/widgets/inputs/dropdown_button.dart';
@@ -92,6 +93,16 @@ class ListMenu {
           );
         },
         child: const Text('Snackbar'),
+      ),
+      TextButton(
+        onPressed: () {
+          Navigator.of(context).pushReplacement(
+            MaterialPageRoute(
+              builder: (ctx) => const AlertDialogView(),
+            ),
+          );
+        },
+        child: const Text('Alert dialog'),
       ),
     ];
   }
