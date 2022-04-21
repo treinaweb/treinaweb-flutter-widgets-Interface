@@ -13,6 +13,7 @@ import 'package:perfil/widgets/interface/expansion_panel.dart';
 import 'package:perfil/widgets/interface/list_tile.dart';
 import 'package:perfil/widgets/interface/table.dart';
 import 'package:perfil/widgets/scroll/draggable_scrollble_sheet.dart';
+import 'package:perfil/widgets/scroll/list_wheell_scroll_view.dart';
 import 'package:perfil/widgets/scroll/scrollbar.dart';
 
 class ListMenu {
@@ -169,6 +170,16 @@ class ListMenu {
           );
         },
         child: const Text('draggable scrollable sheet'),
+      ),
+      TextButton(
+        onPressed: () {
+          Navigator.of(context).pushReplacement(
+            MaterialPageRoute(
+              builder: (ctx) => const ListWheellScrollViewView(),
+            ),
+          );
+        },
+        child: const Text('list whell scroll view'),
       ),
     ];
   }
