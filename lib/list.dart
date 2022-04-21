@@ -12,6 +12,7 @@ import 'package:perfil/widgets/interface/data_table.dart';
 import 'package:perfil/widgets/interface/expansion_panel.dart';
 import 'package:perfil/widgets/interface/list_tile.dart';
 import 'package:perfil/widgets/interface/table.dart';
+import 'package:perfil/widgets/scroll/scrollbar.dart';
 
 class ListMenu {
   ListMenu._();
@@ -147,6 +148,16 @@ class ListMenu {
           );
         },
         child: const Text('Expansion panel'),
+      ),
+      TextButton(
+        onPressed: () {
+          Navigator.of(context).pushReplacement(
+            MaterialPageRoute(
+              builder: (ctx) => const ScrollBarView(),
+            ),
+          );
+        },
+        child: const Text('Scroll bar'),
       ),
     ];
   }
