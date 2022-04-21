@@ -9,6 +9,7 @@ import 'package:perfil/widgets/inputs/slider.dart';
 import 'package:perfil/widgets/inputs/switch_list_tile.dart';
 import 'package:perfil/widgets/inputs/text_elevated_outlined_button.dart';
 import 'package:perfil/widgets/interface/data_table.dart';
+import 'package:perfil/widgets/interface/expansion_panel.dart';
 import 'package:perfil/widgets/interface/list_tile.dart';
 import 'package:perfil/widgets/interface/table.dart';
 
@@ -136,6 +137,16 @@ class ListMenu {
           );
         },
         child: const Text('Data Table'),
+      ),
+      TextButton(
+        onPressed: () {
+          Navigator.of(context).pushReplacement(
+            MaterialPageRoute(
+              builder: (ctx) => const ExpansionPanelView(),
+            ),
+          );
+        },
+        child: const Text('Expansion panel'),
       ),
     ];
   }
