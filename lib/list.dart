@@ -16,6 +16,7 @@ import 'package:perfil/widgets/scroll/draggable_scrollble_sheet.dart';
 import 'package:perfil/widgets/scroll/list_wheell_scroll_view.dart';
 import 'package:perfil/widgets/scroll/reoderable_list_view.dart';
 import 'package:perfil/widgets/scroll/scrollbar.dart';
+import 'package:perfil/widgets/tela/sliver_app_bar.dart';
 import 'package:perfil/widgets/tela/tab_bar.dart';
 
 class ListMenu {
@@ -202,6 +203,16 @@ class ListMenu {
           );
         },
         child: const Text('tab bar'),
+      ),
+      TextButton(
+        onPressed: () {
+          Navigator.of(context).pushReplacement(
+            MaterialPageRoute(
+              builder: (ctx) => const SliverAppBarView(),
+            ),
+          );
+        },
+        child: const Text('Sliver app bar'),
       ),
     ];
   }
