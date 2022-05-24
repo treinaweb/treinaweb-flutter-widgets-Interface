@@ -1,16 +1,23 @@
-# perfil
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Aula | Video | Commit | Link
+------ | ------ | ------ | ------
+Aula 01 | 01 | criando projeto | [Download](https://github.com/treinaweb/treinaweb-flutter-widgets-Interface/archive/3a1737aeeb0b371e80516b8f94a980973d2c81dc.zip)
+Aula 02 | 02 | text, elevated e outlined button | [Download](https://github.com/treinaweb/treinaweb-flutter-widgets-Interface/archive/99661cc7ed38e201d1c3933b4508b9b8ff4dd3c9.zip)
+Aula 02 | 03 | dropdownbutton | [Download](https://github.com/treinaweb/treinaweb-flutter-widgets-Interface/archive/7494de9da29271c6aedde455b7f5d3a6b5af63d8.zip)
+Aula 02 | 04 | switch | [Download](https://github.com/treinaweb/treinaweb-flutter-widgets-Interface/archive/8bf95f6f9043dc8860a7051e2b7de82b3c9f2202.zip)
+Aula 02 | 05 | checkbox | [Download](https://github.com/treinaweb/treinaweb-flutter-widgets-Interface/archive/63428f56e7dae5dd0064446c1815d8e75e3b7839.zip)
+Aula 02 | 06 | slider | [Download](https://github.com/treinaweb/treinaweb-flutter-widgets-Interface/archive/cc6fa68457fc1819d3f1178512bd2f20bf9f0397.zip)
+Aula 02 | 07 | gestureDetector | [Download](https://github.com/treinaweb/treinaweb-flutter-widgets-Interface/archive/402ead1795357fe407a5f226af503912ab724193.zip)
+Aula 03 | 08 | snackbar | [Download](https://github.com/treinaweb/treinaweb-flutter-widgets-Interface/archive/62be7aaf64acbed78544105e9498474c6ac9efec.zip)
+Aula 03 | 09 | alert dialog | [Download](https://github.com/treinaweb/treinaweb-flutter-widgets-Interface/archive/c351e9d0d17e7f49cf89872f8eebd2cb8d56dcce.zip)
+Aula 04 | 10 | list tile | [Download](https://github.com/treinaweb/treinaweb-flutter-widgets-Interface/archive/c2f44f4c023bb144fbefcf5f6ee5357044a2912e.zip)
+Aula 04 | 11 | table | [Download](https://github.com/treinaweb/treinaweb-flutter-widgets-Interface/archive/746c8bd03a07cd692983d03430781fe88b557d6b.zip)
+Aula 04 | 12 | data table | [Download](https://github.com/treinaweb/treinaweb-flutter-widgets-Interface/archive/731163672f94a4c266844dbf976f7d87d0a9b044.zip)
+Aula 04 | 13 | expansion panel | [Download](https://github.com/treinaweb/treinaweb-flutter-widgets-Interface/archive/456ca07c6ce97ee522213a63419c9bc7da268208.zip)
+Aula 05 | 14 | scrollbar | [Download](https://github.com/treinaweb/treinaweb-flutter-widgets-Interface/archive/61370a6a58ebf68acad98a1bae44aab7e32008cb.zip)
+Aula 05 | 15 | draggable_scrollable_sheet | [Download](https://github.com/treinaweb/treinaweb-flutter-widgets-Interface/archive/a532a75238215da58bb85f58cc4e932978b7232a.zip)
+Aula 05 | 16 | listwheellScrollView | [Download](https://github.com/treinaweb/treinaweb-flutter-widgets-Interface/archive/64d713aa68f36a83926aa7db5e443758487486ee.zip)
+Aula 05 | 17 | reorderable list view | [Download](https://github.com/treinaweb/treinaweb-flutter-widgets-Interface/archive/d82cb632068db0b04f2d68c59a291b82545ef1f4.zip)
+Aula 06 | 18 | tab bar | [Download](https://github.com/treinaweb/treinaweb-flutter-widgets-Interface/archive/d415181a79adee04e707fc3671bf9ee916bf0603.zip)
+Aula 06 | 19 | slive app bar | [Download](https://github.com/treinaweb/treinaweb-flutter-widgets-Interface/archive/2e77cf8379f9f8c965ab52b9eaad52bff3598331.zip)
+Aula 06 | 20 | page view | [Download](https://github.com/treinaweb/treinaweb-flutter-widgets-Interface/archive/4aafd416fa860595e7deb6ba0b6c5aec90b264fc.zip)
+Aula 07 | 21 | projeto | [Download](https://github.com/treinaweb/treinaweb-flutter-widgets-Interface/archive/3d68f2665da229b365d694ef5b76e4124f25d505.zip)
